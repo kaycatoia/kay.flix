@@ -1,0 +1,65 @@
+body{
+    color: purple;
+    background: plum;
+    margin: 20px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 100px;
+}
+
+header{ 
+    border-bottom: solid 1px rgb(33, 32, 37);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(33, 32, 37);
+}
+
+.chamada{
+    background: pink;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 35px;
+}
+
+img{
+    height: 200px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.separar-link{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria{
+    background: pink;
+    padding-left: 10px;
+    padding-right: 10xp;
+    padding-bottom: 60px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 2px solid rgb(199, 141, 141);
+
+}
+.categoria h1{
+    color: purple;
+}
